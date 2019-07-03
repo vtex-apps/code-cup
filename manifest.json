@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "code-cup",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "title": "VTEX Code Cup landing page",
   "description": "VTEX Code Cup landing page",
   "builders": {
