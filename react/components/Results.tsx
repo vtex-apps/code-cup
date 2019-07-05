@@ -44,10 +44,10 @@ const Results = () => (
         </div>
       </article>
     </div>
-    <h1 className="c-emphasis t-heading-2 center">
+    <h1 className="c-emphasis t-heading-2 center tc mv7">
       Até a próxima edição!
     </h1>
-    <section className="mv7 flex justify-center items-center">
+    <section className="pv7 flex justify-center items-center">
       <iframe
         className="w-70-l w-90 vh-75"
         src="https://www.youtube.com/embed/CWA0cWdkMOo"
