@@ -10,7 +10,7 @@ import Subscribe from './components/Subscribe'
 import VTEX from './components/VTEX'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
-import Winners from './components/Winners'
+import Results from './components/Results'
 
 import HomeImage from './images/imagem_home.jpg'
 
@@ -57,7 +57,7 @@ class Landing extends Component {
         </Helmet>
         <main className="w-100 bg-white">
           <Header />
-          <Winners />
+          <Results />
           <About />
           <Rio />
           <Subscribe />
