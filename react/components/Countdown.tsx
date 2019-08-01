@@ -23,7 +23,7 @@ class Countdown extends Component<Props, State> {
     }
   }
 
-  private interval: NodeJS.Timer = setInterval(() => {
+  private interval = setInterval(() => {
     return
   }, 0)
 

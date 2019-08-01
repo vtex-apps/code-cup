@@ -18,7 +18,7 @@ const Header: FunctionComponent = () => {
   return (
     <header className="flex flex-column-s flex-row-l w-100">
       <div
-        className="bg-white flex-l dn-s justify-around pb9"
+        className="flex-l dn-s justify-around pb9"
         style={{
           writingMode: 'vertical-lr',
           transform: 'rotate(-180deg)',
@@ -44,7 +44,7 @@ const Header: FunctionComponent = () => {
         </div>
       </div>
       <div
-        className="flex flex-grow-1 pa9 flex-column justify-around c-muted-1 bg-center-l"
+        className="flex flex-grow-1 pa9 flex-column justify-around c-on-emphasis bg-center-l"
         style={{
           backgroundImage: `url(${HeaderImage})`,
           backgroundRepeat: 'no-repeat',
@@ -52,7 +52,7 @@ const Header: FunctionComponent = () => {
         }}
       >
         <nav className="flex">
-          <div className="c-muted-1 w-100 flex flex-column flex-row-l justify-between">
+          <div className="c-on-emphasis w-100 flex flex-column flex-row-l justify-between">
             <div className="flex flex-column items-center">
               <img src={Logo} className="h3-l" alt="VTEX CODE CUP" />
               <button
@@ -65,22 +65,25 @@ const Header: FunctionComponent = () => {
             <div className="flex-l" hidden={!openNav}>
               <div className="flex flex-column flex-row-l justify-center list mt0 items-center mb0">
                 <p className="mh5-l mv5 mv0-l">
-                  <a className="link c-muted-1" href="https://codecup.vtex.com">
+                  <a
+                    className="link c-on-emphasis"
+                    href="https://codecup.vtex.com"
+                  >
                     <strong>HOME</strong>
                   </a>
                 </p>
                 <p className="mh5-l mv5 mv0-l bold">
-                  <a className="link c-muted-1" href="#about">
+                  <a className="link c-on-emphasis" href="#about">
                     <strong>O QUE É?</strong>
                   </a>
                 </p>
                 <p className="mh5-l mv5 mv0-l bold">
-                  <a className="link c-muted-1" href="#faq">
+                  <a className="link c-on-emphasis" href="#faq">
                     <strong>FAQ</strong>
                   </a>
                 </p>
                 <p className="mh5-l mv5 mv0-l bold">
-                  <a className="link c-muted-1" href="/rules">
+                  <a className="link c-on-emphasis" href="/rules">
                     <strong>REGRAS</strong>
                   </a>
                 </p>

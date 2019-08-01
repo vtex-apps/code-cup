@@ -34,11 +34,11 @@ const About: FunctionComponent = () => (
         </p>
         <img src={TrophyIcon} className="w-40 center mv6" alt="" />
         <a className="link" href="https://vtexcc19.kattis.com/">
-          <button className="c-on-base br-pill mt6 mb3 bg-base ph9 b--none pointer">
+          <button className="c-on-base--inverted br-pill mt6 mb3 bg-base--inverted ph9 b--none pointer">
             <p className="t-heading-4">Participar</p>
           </button>
         </a>
-        <p className="t-mini w-75 c-on-base">
+        <p className="t-mini w-75 c-on-base--inverted">
           * Caso a organização do ACM-ICPC não autorize acompanhar a final da
           ICPC ou o vencedor já esteja classificado para a final do ICPC em
           2020, poderá solicitar a troca do prêmio por uma participação no

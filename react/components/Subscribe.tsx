@@ -31,7 +31,7 @@ const Subscribe: FunctionComponent = () => (
       <div className="flex flex-column items-center w-50-l">
         <img src={Go} className="mv4" alt="" />
         <a className="link" href="https://vtexcc19.kattis.com/">
-          <button className="c-on-base br-pill mt6 mb3 bg-emphasis ph9 b--none pointer">
+          <button className="c-on-base--inverted br-pill mt6 mb3 bg-emphasis ph9 b--none pointer">
             <p className="t-heading-4">Participar</p>
           </button>
         </a>
