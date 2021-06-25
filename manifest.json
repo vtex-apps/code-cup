@@ -7,7 +7,6 @@
   "builders": {
     "docs": "0.x",
     "react": "3.x",
-    "messages": "1.x",
     "store": "0.x",
     "styles": "1.x"
   },
@@ -16,9 +15,7 @@
   },
   "mustUpdateAt": "2018-09-05",
   "categories": [],
-  "registries": [
-    "smartcheckout"
-  ],
+  "registries": ["smartcheckout"],
   "settingsSchema": {},
   "scripts": {
     "postreleasy": "vtex publish --verbose"
